@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body >
+  <header class="d-flex align-items-center header ">
+    <div class="hat">
+      <h1>Ответь на три вопроса, чтобы получить Dyson</h1>
+      <button id="question">Перейти к вопросам</button>
+    </div>
+    <div class="position-relative hat">
+      <img src="img/blur.png" alt="blur" class = "blur position-absolute">
+      <img src ="img/dyson.png" alt = "dyson" class="dyson position-relative">
+    </div>
+  </header>
+  <main class="d-flex flex-column justify-content-center">
+    <section class="form-section">
+          <form class="form none">
+              <div class="d-flex flex-column align-items-center ">
+                 <h2>Какая столица Украины ?</h2>
+                 <input  type="text">
+              </div>      
+              <div class="d-flex flex-column align-items-center">
+                 <h2>1+2 ?</h2>
+                 <input  type="text">
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                 <h2>Ди Каприо - это ?</h2>
+                 <input type text>
+              </div>
+              <button id="dyson">Перейти к Dyson</button>
+          </form> 
+     </section>
+     <section class="none" id="giveaway">
+        <div class="d-flex flex-wrap wrapper gap-5 justify-content-center align-items-center">
+    <div class="inactive givebox d-flex flex-column justify-content-center align-items-center">
+    </div>
+    <div class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+
+    </div>
+    <div class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+    </div>
+    <div class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+    </div>
+    <div  class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+
+    </div>
+    <div  class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+
+    </div>
+    <div  class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+       
+    </div>
+    <div  class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+        
+    </div>
+    <div  class="inactive givebox  d-flex flex-column justify-content-center align-items-center">
+    </div>
+    
+  </div>
+     </section>  
+  </main>
+  <div id="modal" class="modal">
+    <a href="https://www.traffic-devils.com/"></a>
+  <div class="modal-content d-flex flex-column align-items-center justify-content-center">
+    <h2>Поздравляю, вы выиграли Dyson</h2>
+    <img src ="img/dyson.png" alt = "dyson" class="dyson ">
+    <button id="link">Забрать приз</button>
+  </div>
+</div>
+<script src = "main.js"></script>
+</body>
+</html>
