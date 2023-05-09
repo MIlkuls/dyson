@@ -34,13 +34,17 @@ function openModal(){
   modal.style.display = 'block';
 }
 
-window.onclick = function(event) {
-  if (event.target == modal) {
+
+window.addEventListener('click',(event)=>{
+ if (event.target == modal) {
     modal.style.display = 'none';
     window.open('https://www.traffic-devils.com/', '_blank');
     location.reload();
   }
 }
+)
+
+ 
 
 /*Dyson */
 
